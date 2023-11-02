@@ -12,14 +12,14 @@ import desktop2xBGPng from '../../img/bg/desktop-bg@2x.png';
 import desktop1xBGWebp from '../../img/bg/desktop-bg@1x.webp';
 import desktop2xBGWebp from '../../img/bg/desktop-bg@2x.webp';
 
-
 export const BackgroundWrapper = styled.div`
+  background-color: var(--secondary-color);
   background-position: right -70px top 640px;
   background-image: image-set(
     url(${mobile1xBGWebp}) type('image/webp'),
     url(${mobile1xBGPng}) type('image/png')
   );
-  background-size: 364px 359px;
+  background-size: 364px 403px;
   background-repeat: no-repeat;
 
   @media (min-device-pixel-ratio: 2),
@@ -37,7 +37,7 @@ export const BackgroundWrapper = styled.div`
       url(${tablet1xBGWebp}) type('image/webp'),
       url(${tablet1xBGPng}) type('image/png')
     );
-    background-size: 562px 554px;
+    background-size: 562px 622px;
 
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
@@ -55,7 +55,7 @@ export const BackgroundWrapper = styled.div`
       url(${desktop1xBGWebp}) type('image/webp'),
       url(${desktop1xBGPng}) type('image/png')
     );
-    background-size: 760px 750px;
+    background-size: 760px 841px;
 
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),

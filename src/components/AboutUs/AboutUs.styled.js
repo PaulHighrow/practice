@@ -2,6 +2,7 @@ import { BackgroundWrapper } from 'components/BackgroundWrapper/BackgroundWrappe
 import styled from 'styled-components';
 
 export const AboutUsBackground = styled(BackgroundWrapper)`
+  background-color: var(--secondary-color);
   background-position: right -70px bottom 10px;
 
   @media screen and (min-width: 768px) {
